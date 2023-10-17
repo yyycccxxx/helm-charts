@@ -1,0 +1,251 @@
+apiVersion: v1
+entries:
+  apache:
+  - annotations:
+      category: Infrastructure
+      images: |
+        - name: apache-exporter
+          image: harbor-repo.vmware.com/alp/bitnami/apache-exporter:1.0.2-debian-11-r10
+        - name: apache
+          image: harbor-repo.vmware.com/alp/bitnami/apache:2.4.57-debian-11-r182
+        - name: git
+          image: harbor-repo.vmware.com/alp/bitnami/git:2.42.0-debian-11-r45
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 2.4.57
+    created: "2023-10-16T03:18:07.593621837Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Apache HTTP Server is an open-source HTTP server. The goal of this
+      project is to provide a secure, efficient and extensible server that provides
+      HTTP services in sync with the current HTTP standards.
+    digest: 1a3e690b35ced7d817e16425860061308e715c20832530c62ff72e646718008e
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/apache/img/apache-stack-220x234.png
+    keywords:
+    - apache
+    - http
+    - https
+    - www
+    - web
+    - reverse proxy
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: apache
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/apache
+    urls:
+    - https://harbor-vcd.eng.vmware.com/chartrepo/contenthub/charts/apache-10.1.5.tgz
+    version: 10.1.5
+  - annotations:
+      category: Infrastructure
+      images: |
+        - name: apache-exporter
+          image: harbor-repo.vmware.com/alp/bitnami/apache-exporter:1.0.2-debian-11-r5
+        - name: apache
+          image: harbor-repo.vmware.com/alp/bitnami/apache:2.4.57-debian-11-r180
+        - name: git
+          image: harbor-repo.vmware.com/alp/bitnami/git:2.42.0-debian-11-r41
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 2.4.57
+    created: "2023-10-16T04:47:36.773275074Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Apache HTTP Server is an open-source HTTP server. The goal of this
+      project is to provide a secure, efficient and extensible server that provides
+      HTTP services in sync with the current HTTP standards.
+    digest: 9f226d91cafaf8d83629b170ebbbbeecd9e1f21b9f92f6f008be7ec6982a1cf0
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/apache/img/apache-stack-220x234.png
+    keywords:
+    - apache
+    - http
+    - https
+    - www
+    - web
+    - reverse proxy
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: apache
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/apache
+    urls:
+    - https://harbor-vcd.eng.vmware.com/chartrepo/contenthub/charts/apache-10.1.4.tgz
+    version: 10.1.4
+  dokuwiki:
+  - annotations:
+      category: Wiki
+      images: |
+        - name: apache-exporter
+          image: harbor-repo.vmware.com/alp/bitnami/apache-exporter:1.0.2-debian-11-r10
+        - name: dokuwiki
+          image: harbor-repo.vmware.com/alp/bitnami/dokuwiki:20230404.1.0-debian-11-r102
+        - name: os-shell
+          image: harbor-repo.vmware.com/alp/bitnami/os-shell:11-debian-11-r90
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 20230404.1.0
+    created: "2023-10-16T03:23:17.334594441Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: DokuWiki is a standards-compliant wiki optimized for creating documentation.
+      Designed to be simple to use for small organizations, it stores all data in
+      plain text files so no database is required.
+    digest: 0ee195635640d0e1e8f41bcd4c9ad999949b87635ee5136730e44cb30d3563d9
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/dokuwiki/img/dokuwiki-stack-220x234.png
+    keywords:
+    - dokuwiki
+    - wiki
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: dokuwiki
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/dokuwiki
+    urls:
+    - https://harbor-vcd.eng.vmware.com/chartrepo/contenthub/charts/dokuwiki-14.2.5.tgz
+    version: 14.2.5
+  - annotations:
+      category: Wiki
+      images: |
+        - name: apache-exporter
+          image: harbor-repo.vmware.com/alp/bitnami/apache-exporter:1.0.2-debian-11-r8
+        - name: dokuwiki
+          image: harbor-repo.vmware.com/alp/bitnami/dokuwiki:20230404.1.0-debian-11-r100
+        - name: os-shell
+          image: harbor-repo.vmware.com/alp/bitnami/os-shell:11-debian-11-r89
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 20230404.1.0
+    created: "2023-10-16T03:24:20.890227171Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: DokuWiki is a standards-compliant wiki optimized for creating documentation.
+      Designed to be simple to use for small organizations, it stores all data in
+      plain text files so no database is required.
+    digest: 1d9e1859df944f841b3e583dbd72b85e481e362830b40a9e6308d9ff8e18cc67
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/dokuwiki/img/dokuwiki-stack-220x234.png
+    keywords:
+    - dokuwiki
+    - wiki
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: dokuwiki
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/dokuwiki
+    urls:
+    - https://harbor-vcd.eng.vmware.com/chartrepo/contenthub/charts/dokuwiki-14.2.4.tgz
+    version: 14.2.4
+  nginx:
+  - annotations:
+      category: Infrastructure
+      images: |
+        - name: git
+          image: harbor-repo.vmware.com/alp/bitnami/git:2.42.0-debian-11-r45
+        - name: nginx-exporter
+          image: harbor-repo.vmware.com/alp/bitnami/nginx-exporter:0.11.0-debian-11-r369
+        - name: nginx
+          image: harbor-repo.vmware.com/alp/bitnami/nginx:1.25.2-debian-11-r47
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 1.25.2
+    created: "2023-10-16T03:20:27.340147736Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: NGINX Open Source is a web server that can be also used as a reverse
+      proxy, load balancer, and HTTP cache. Recommended for high-demanding sites due
+      to its ability to provide faster content.
+    digest: a39443781b47ebd71ff9a9891da100eb8920ac7abe5b06ec7d1397e2fa1d4223
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: nginx
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/nginx
+    urls:
+    - https://harbor-vcd.eng.vmware.com/chartrepo/contenthub/charts/nginx-15.3.4.tgz
+    version: 15.3.4
+  - annotations:
+      category: Infrastructure
+      images: |
+        - name: git
+          image: harbor-repo.vmware.com/alp/bitnami/git:2.42.0-debian-11-r41
+        - name: nginx-exporter
+          image: harbor-repo.vmware.com/alp/bitnami/nginx-exporter:0.11.0-debian-11-r368
+        - name: nginx
+          image: harbor-repo.vmware.com/alp/bitnami/nginx:1.25.2-debian-11-r46
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 1.25.2
+    created: "2023-10-16T03:21:29.636510869Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: NGINX Open Source is a web server that can be also used as a reverse
+      proxy, load balancer, and HTTP cache. Recommended for high-demanding sites due
+      to its ability to provide faster content.
+    digest: e5ffe07fc24246725955683b87c5747edde9b1b989c6eb4c991211d56e6a5ab9
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: nginx
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/nginx
+    urls:
+    - https://harbor-vcd.eng.vmware.com/chartrepo/contenthub/charts/nginx-15.3.3.tgz
+    version: 15.3.3
+generated: "2023-10-16T04:47:37Z"
+serverInfo: {}
