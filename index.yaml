@@ -13,7 +13,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.4.57
-    created: "2023-10-17T16:33:05.403713+08:00"
+    created: "2023-10-19T14:39:50.353195+08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -40,7 +40,7 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/apache
     urls:
-    - https://yyycccxxx.github.io/helm-charts/apache-10.1.5.tgz
+    - https://godq.github.io/helm-charts/apache-10.1.5.tgz
     version: 10.1.5
   - annotations:
       category: Infrastructure
@@ -54,7 +54,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.4.57
-    created: "2023-10-17T16:33:05.400586+08:00"
+    created: "2023-10-19T14:39:50.349939+08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -81,7 +81,7 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/apache
     urls:
-    - https://yyycccxxx.github.io/helm-charts/apache-10.1.4.tgz
+    - https://godq.github.io/helm-charts/apache-10.1.4.tgz
     version: 10.1.4
   dokuwiki:
   - annotations:
@@ -96,7 +96,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 20230404.1.0
-    created: "2023-10-17T16:33:05.410499+08:00"
+    created: "2023-10-19T14:39:50.361078+08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -123,7 +123,7 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/dokuwiki
     urls:
-    - https://yyycccxxx.github.io/helm-charts/dokuwiki-14.2.5.tgz
+    - https://godq.github.io/helm-charts/dokuwiki-14.2.5.tgz
     version: 14.2.5
   - annotations:
       category: Wiki
@@ -137,7 +137,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 20230404.1.0
-    created: "2023-10-17T16:33:05.406846+08:00"
+    created: "2023-10-19T14:39:50.357667+08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -164,7 +164,7 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/dokuwiki
     urls:
-    - https://yyycccxxx.github.io/helm-charts/dokuwiki-14.2.4.tgz
+    - https://godq.github.io/helm-charts/dokuwiki-14.2.4.tgz
     version: 14.2.4
   nginx:
   - annotations:
@@ -179,7 +179,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.25.2
-    created: "2023-10-17T16:33:05.416685+08:00"
+    created: "2023-10-19T14:39:50.372526+08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -205,7 +205,7 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/nginx
     urls:
-    - https://yyycccxxx.github.io/helm-charts/nginx-15.3.4.tgz
+    - https://godq.github.io/helm-charts/nginx-15.3.4.tgz
     version: 15.3.4
   - annotations:
       category: Infrastructure
@@ -219,7 +219,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.25.2
-    created: "2023-10-17T16:33:05.41358+08:00"
+    created: "2023-10-19T14:39:50.367768+08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -245,6 +245,39 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/nginx
     urls:
-    - https://yyycccxxx.github.io/helm-charts/nginx-15.3.3.tgz
+    - https://godq.github.io/helm-charts/nginx-15.3.3.tgz
     version: 15.3.3
-generated: "2023-10-17T16:33:05.397124+08:00"
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.22.0
+    created: "2023-10-19T14:39:50.364032+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: NGINX Open Source is a web server that can be also used as a reverse
+      proxy, load balancer, and HTTP cache. Recommended for high-demanding sites due
+      to its ability to provide faster content.
+    digest: ab819eaa57164955a6787dd841a975c819f747039b90f8def24b8d523692887b
+    home: https://github.com/bitnami/charts/tree/master/bitnami/nginx
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: nginx
+    sources:
+    - https://github.com/bitnami/bitnami-docker-nginx
+    - https://www.nginx.org
+    urls:
+    - https://godq.github.io/helm-charts/nginx-12.0.6.tgz
+    version: 12.0.6
+generated: "2023-10-19T14:39:50.345471+08:00"
